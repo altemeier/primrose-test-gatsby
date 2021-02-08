@@ -25,12 +25,20 @@ export default {
 		"6021b9be71e66d001efb2778": {
 			"id": "6021b9be71e66d001efb2778",
 			"pageUrl": "about",
-			"name": "About"
+			"name": "About",
+			"children": [
+				"6021be316c1e89001ea0c510"
+			]
 		},
 		"6021b9f3372cb7001f0e27bb": {
 			"id": "6021b9f3372cb7001f0e27bb",
 			"pageUrl": "contact",
 			"name": "Contact"
+		},
+		"6021be316c1e89001ea0c510": {
+			"id": "6021be316c1e89001ea0c510",
+			"pageUrl": "id",
+			"name": "{id}"
 		}
 	},
 	"mode": "production",
