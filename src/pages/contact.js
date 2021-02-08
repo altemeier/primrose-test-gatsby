@@ -21,7 +21,7 @@ export default (() => {
 			align-items="center"
 			justify-content="center"
 		>
-			<Link href="#About" align-self="center" font="48px --fontFamily-sans">
+			<Link href="/about" align-self="center" font="48px --fontFamily-sans">
 				About
 			</Link>
 		</Box>

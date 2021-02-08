@@ -1,9 +1,8 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link } from "@quarkly/widgets";
+import { Theme, Link, Box } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"about"} />
@@ -14,7 +13,18 @@ export default (() => {
 			<meta name={"description"} content={"Web site created using quarkly.io"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/readme/cra/favicon-32x32.ico"} type={"image/x-icon"} />
 		</Helmet>
-		<Components.CenteredLink />
+		<Box
+			width="960px"
+			height="640px"
+			margin="0px auto 0px auto"
+			display="flex"
+			align-items="center"
+			justify-content="center"
+		>
+			<Link href="/contact" align-self="center" font="48px --fontFamily-sans">
+				Contact
+			</Link>
+		</Box>
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
